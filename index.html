@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./font/stylesheet.css" />
+    <link rel="stylesheet" href="./style/adaptiv.css" />
+    <link rel="stylesheet" href="./style/burger.css" />
     <link
       rel="preload"
       href="GoldenDecades-Heavy.woff2"
@@ -17,7 +19,10 @@
     />
   </head>
   <body>
-    <!-- main section -->
+    <!-- burger -->
+    <div id="menu" class="menu"></div>
+    <!-- burger -->
+
     <!-- preloader -->
 
     <div id="page-preloader" class="preloader">
@@ -30,6 +35,13 @@
         <div class="container">
           <div class="header__content">
             <img class="header__logo" src="./img/logo.svg" alt="" />
+            <div class="block-span">
+              <div id="icon" class="menu-btn">
+                <span id="icon"></span>
+                <span id="icon"></span>
+                <span id="icon"></span>
+              </div>
+            </div>
             <div class="header__btns">
               <a href="questions.html">
                 <button class="header__sing">Войти</button>
@@ -66,22 +78,28 @@
                     Пройдите официальный тест и получите возможность получать
                     пассивный доход от <b> 4000€ ежемесячно</b>
                   </h2>
-                  <a class="main-content__link" href="./questions.html">
-                    <div class="main-content__btn">
-                      <div class="main-content__btn_content">
-                        Пройти тест
-                        <img
-                          class="main-content__arrow"
-                          src="./img/arrow.svg"
-                          alt=""
-                        />
-                      </div></div
-                  ></a>
+                  <div class="centre">
+                    <a class="main-content__link" href="./questions.html">
+                      <div class="main-content__btn">
+                        <div class="main-content__btn_content">
+                          Пройти тест
+                          <img
+                            class="main-content__arrow"
+                            src="./img/arrow.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </a>
+                  </div>
                 </div>
                 <!-- counter block -->
                 <div class="centre">
                   <div class="main-content_counter_block">
                     <div class="main-content_counter_content">
+                      <div class="main-content_counter_text_hidden">
+                        Людей получили доступ к инвестиционной платформе!
+                      </div>
                       <!-- counter -->
                       <div class="main-content_counter">
                         <div class="main-content_counter_btn">
@@ -152,4 +170,5 @@
     </footer>
   </body>
   <script src="./js/counter.js"></script>
+  <script src="./js/burger.js"></script>
 </html>

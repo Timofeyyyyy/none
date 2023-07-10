@@ -15,6 +15,9 @@ body {
 button {
   cursor: pointer;
 }
+.hidden {
+  display: none;
+}
 .centre {
   display: flex;
   justify-content: center;
@@ -153,7 +156,6 @@ button {
 }
 .main-content_counter_content {
   align-items: center;
-
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -173,6 +175,13 @@ button {
   gap: 5px;
 }
 .main-content_counter_text {
+  font-size: 16;
+  font-weight: 700;
+  color: #2f2f2f;
+  max-width: 225px;
+}
+.main-content_counter_text_hidden {
+  display: none;
   font-size: 16;
   font-weight: 700;
   color: #2f2f2f;

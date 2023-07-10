@@ -1,0 +1,233 @@
+/* <!-- burger --> */
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 154px 0px;
+  background: #fefffe;
+  z-index: 9;
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
+.menu.active {
+  transform: translateY(0);
+}
+.arrow_header_burger {
+  width: 12px;
+}
+.arrow_header_burger.active {
+  transition: 0.3s all;
+  transform: rotate(180deg);
+  fill: #23a95c;
+}
+.arrow_header_two {
+  width: 12px;
+}
+.arrow_header_two.active {
+  transition: 0.3s all;
+  transform: rotate(180deg);
+  fill: #23a95c;
+}
+.header_hidden_menu_burger {
+  max-height: 0px;
+  transition: 0.2s all;
+  opacity: 0;
+  visibility: hidden;
+}
+.header_hidden_menu_burger.active {
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+}
+.header_hidden_menu_two {
+  max-height: 0px;
+  transition: 0.2s all;
+  opacity: 0;
+  visibility: hidden;
+}
+.header_hidden_menu_two.active {
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+}
+.nav_link_burger {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #242926;
+  text-decoration: none;
+}
+.nav_link_burger.active {
+  color: #23a95c;
+}
+.nav_link_burger_two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #242926;
+  text-decoration: none;
+}
+.nav_link_burger_two.active {
+  color: #23a95c;
+}
+.header_listt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.link_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 9;
+  cursor: pointer;
+}
+.block-span {
+  display: none;
+}
+.order_call_burger {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-burger-menu {
+  margin-left: 0px;
+  display: flex;
+}
+.burger-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.burger-link:active {
+  color: #8361b8;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.menu-btn span {
+  border-radius: 3px;
+  width: 40px;
+  height: 1.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #242926;
+  transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+  height: 0.5px;
+  top: calc(50% - 8px);
+}
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 8px);
+
+  height: 1.5px;
+
+  background: #242926;
+  transition: all 0.5s;
+}
+.link_wrapper_burger {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+.burger_link {
+  text-align: center;
+}
+.link_wrapper_burger .nav_link {
+  pointer-events: none;
+}
+.menu-btn.active span:nth-of-type(2) {
+  display: none;
+}
+.menu-btn.active span:nth-of-type(1) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+  /* close */
+}
+.menu-btn.close:nth-of-type(1) {
+  display: block;
+}
+.menu-btn.close:nth-of-type(2) {
+  display: block;
+}
+.menu-btn.close:nth-of-type(3) {
+  display: block;
+}
+.burger-contact {
+  position: relative;
+  margin-top: 50px;
+}
+.contact-burger-block {
+  display: flex;
+  align-items: center;
+}
+.burger-contact .burger-link-contact {
+  color: #fd9346;
+}
+.burger-contact .burger-elips {
+  position: absolute;
+
+  top: 100px;
+  right: 60px;
+}
+/* / Меню, яке буде зʼявлятися */
+
+.burger-link-contact {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.burger-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.nav_burger_list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.social_burger {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  margin-top: 60px;
+}
+.menu li {
+  list-style-type: none;
+}
+.burger_contact {
+  margin-top: 20px;
+}
+@media all and (max-width: 900px) {
+  .block-span {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* <!-- burger --> */
