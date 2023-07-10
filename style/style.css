@@ -1,0 +1,226 @@
+* {
+  font-family: "Golden Decades";
+  padding: 0;
+  margin: 0;
+}
+/* font-family: "Gilroy-Bold", sans-serif;
+font-family: "Gilroy-Heavy", sans-serif;
+font-family: "Gilroy-Light", sans-serif;
+font-family: "Gilroy-Medium", sans-serif;
+font-family: "Gilroy-Regular", sans-serif; */
+
+body {
+  background: #f3f4f6;
+}
+button {
+  cursor: pointer;
+}
+.centre {
+  display: flex;
+  justify-content: center;
+}
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.main-content__link {
+  text-decoration: none;
+}
+.header {
+  height: 87px;
+  display: flex;
+  align-items: center;
+  background: #eceff1;
+  border: 1.5px solid #0000001a;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header__sing {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+  border: none;
+  background: none;
+  height: 40px;
+}
+.header__btn {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+  border: 2px solid #2f2f2f;
+  width: 190px;
+  height: 40px;
+  border-radius: 10px;
+}
+/* main content */
+.main-content {
+  padding: 50px 0px 90px 0px;
+}
+.main-content__wrapper {
+  position: relative;
+  height: 600px;
+}
+.main-content__wrapper .main-content__img_right {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main-content__left_side {
+  z-index: 2;
+  position: relative;
+  border-radius: 30px;
+  width: 800px;
+  height: 100%;
+  background: #ffffff;
+}
+.main-content__text_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.main-content__left_side_content {
+  padding: 100px 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.main-content__title_wrapper {
+  position: relative;
+}
+.main-content__title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #2f2f2f;
+  text-align: center;
+}
+.main-content__title_wrapper .main-content__line {
+  position: absolute;
+  bottom: -5px;
+  right: 70px;
+}
+.main-content__subtitle {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f2f2f;
+  text-align: center;
+}
+.main-content__btn {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 300px;
+  height: 55px;
+  background: linear-gradient(180deg, #316cf0 0%, #663eff 100%, #663eff 100%),
+    radial-gradient(
+      34.8% 408.84% at 71.27% 50%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  font-weight: 700;
+  color: #ffff;
+  font-size: 20px;
+  font-family: "Gilroy-Regular", sans-serif;
+  border-radius: 13px;
+
+  pointer-events: none;
+}
+.main-content__btn_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.main-content__arrow {
+  width: 12px;
+}
+.main-content_counter_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  height: 84px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px 0px #0000001a;
+}
+.main-content_counter_content {
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.main-content_counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 52px;
+  background: #316cf01a;
+  border-radius: 9px;
+}
+.main-content_counter_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.main-content_counter_text {
+  font-size: 16;
+  font-weight: 700;
+  color: #2f2f2f;
+  max-width: 225px;
+}
+.main-content_p {
+  color: #316cf0;
+  font-weight: 700;
+  font-size: 23px;
+}
+.footer {
+  width: 100%;
+  background: #191c1f;
+}
+.footer__content {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__social_block {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #ffffff1a;
+  padding-bottom: 28px;
+}
+.footer__p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff99;
+}
+.footer__end_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer_link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff99;
+}

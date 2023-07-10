@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Heavy.eot');
+    src: local('Golden Decades Heavy'), local('GoldenDecades-Heavy'),
+        url('GoldenDecades-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Heavy.woff2') format('woff2'),
+        url('GoldenDecades-Heavy.woff') format('woff'),
+        url('GoldenDecades-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-HeavyItalic.eot');
+    src: local('Golden Decades Heavy Italic'), local('GoldenDecades-HeavyItalic'),
+        url('GoldenDecades-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-HeavyItalic.woff2') format('woff2'),
+        url('GoldenDecades-HeavyItalic.woff') format('woff'),
+        url('GoldenDecades-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-LightItalic.eot');
+    src: local('Golden Decades Light Italic'), local('GoldenDecades-LightItalic'),
+        url('GoldenDecades-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-LightItalic.woff2') format('woff2'),
+        url('GoldenDecades-LightItalic.woff') format('woff'),
+        url('GoldenDecades-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Italic.eot');
+    src: local('Golden Decades Italic'), local('GoldenDecades-Italic'),
+        url('GoldenDecades-Italic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Italic.woff2') format('woff2'),
+        url('GoldenDecades-Italic.woff') format('woff'),
+        url('GoldenDecades-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Bold.eot');
+    src: local('Golden Decades Bold'), local('GoldenDecades-Bold'),
+        url('GoldenDecades-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Bold.woff2') format('woff2'),
+        url('GoldenDecades-Bold.woff') format('woff'),
+        url('GoldenDecades-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Regular.eot');
+    src: local('Golden Decades Regular'), local('GoldenDecades-Regular'),
+        url('GoldenDecades-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Regular.woff2') format('woff2'),
+        url('GoldenDecades-Regular.woff') format('woff'),
+        url('GoldenDecades-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-SemiBoldItalic.eot');
+    src: local('Golden Decades Semi Bold Italic'), local('GoldenDecades-SemiBoldItalic'),
+        url('GoldenDecades-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-SemiBoldItalic.woff2') format('woff2'),
+        url('GoldenDecades-SemiBoldItalic.woff') format('woff'),
+        url('GoldenDecades-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-BoldItalic.eot');
+    src: local('Golden Decades Bold Italic'), local('GoldenDecades-BoldItalic'),
+        url('GoldenDecades-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-BoldItalic.woff2') format('woff2'),
+        url('GoldenDecades-BoldItalic.woff') format('woff'),
+        url('GoldenDecades-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Light.eot');
+    src: local('Golden Decades Light'), local('GoldenDecades-Light'),
+        url('GoldenDecades-Light.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Light.woff2') format('woff2'),
+        url('GoldenDecades-Light.woff') format('woff'),
+        url('GoldenDecades-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-ThinItalic.eot');
+    src: local('Golden Decades Thin Italic'), local('GoldenDecades-ThinItalic'),
+        url('GoldenDecades-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-ThinItalic.woff2') format('woff2'),
+        url('GoldenDecades-ThinItalic.woff') format('woff'),
+        url('GoldenDecades-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-SemiBold.eot');
+    src: local('Golden Decades Semi Bold'), local('GoldenDecades-SemiBold'),
+        url('GoldenDecades-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-SemiBold.woff2') format('woff2'),
+        url('GoldenDecades-SemiBold.woff') format('woff'),
+        url('GoldenDecades-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-ExtraBold.eot');
+    src: local('Golden Decades Extra Bold'), local('GoldenDecades-ExtraBold'),
+        url('GoldenDecades-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-ExtraBold.woff2') format('woff2'),
+        url('GoldenDecades-ExtraBold.woff') format('woff'),
+        url('GoldenDecades-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-Thin.eot');
+    src: local('Golden Decades Thin'), local('GoldenDecades-Thin'),
+        url('GoldenDecades-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-Thin.woff2') format('woff2'),
+        url('GoldenDecades-Thin.woff') format('woff'),
+        url('GoldenDecades-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-ExtraBoldItalic.eot');
+    src: local('Golden Decades Extra Bold Italic'), local('GoldenDecades-ExtraBoldItalic'),
+        url('GoldenDecades-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-ExtraBoldItalic.woff2') format('woff2'),
+        url('GoldenDecades-ExtraBoldItalic.woff') format('woff'),
+        url('GoldenDecades-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-ExtraLight.eot');
+    src: local('Golden Decades Extra Light'), local('GoldenDecades-ExtraLight'),
+        url('GoldenDecades-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-ExtraLight.woff2') format('woff2'),
+        url('GoldenDecades-ExtraLight.woff') format('woff'),
+        url('GoldenDecades-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Decades';
+    src: url('GoldenDecades-ExtraLightItalic.eot');
+    src: local('Golden Decades Extra Light Italic'), local('GoldenDecades-ExtraLightItalic'),
+        url('GoldenDecades-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('GoldenDecades-ExtraLightItalic.woff2') format('woff2'),
+        url('GoldenDecades-ExtraLightItalic.woff') format('woff'),
+        url('GoldenDecades-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
