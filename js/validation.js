@@ -1,8 +1,8 @@
 function validateForm() {
+  var phone = document.getElementById("phone").value;
   var firstName = document.getElementById("first_name").value;
   var lastName = document.getElementById("last_name").value;
   var email = document.getElementById("email").value;
-  var phone = document.getElementById("phone").value;
 
   if (firstName === "" || lastName === "" || email === "" || phone === "") {
     alert("Пожалуйста, заполните все поля формы.");

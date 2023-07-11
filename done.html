@@ -124,7 +124,12 @@
                 <div class="done__right_content">
                   <!-- form done -->
                   <div class="form-done__wrapper">
-                    <form id="form" class="form-done" action="thanck.html">
+                    <form
+                      onsubmit="return validateForm()"
+                      id="form"
+                      class="form-done"
+                      action="thanck.html"
+                    >
                       <!-- text -->
                       <div class="done__left_text_hidden">
                         <div class="done__left_text">
@@ -149,6 +154,7 @@
                       </div>
 
                       <input
+                        name="first_name"
                         id="first_name"
                         placeholder="ваше имя"
                         class="form-done__inut"
@@ -156,6 +162,7 @@
                         required
                       />
                       <input
+                        name="last_name"
                         id="last_name"
                         placeholder="ваша фамилия"
                         class="form-done__inut"
@@ -163,21 +170,24 @@
                         required
                       />
                       <input
+                        type="email"
+                        name="email"
                         id="email"
                         placeholder="ваша почта"
                         class="form-done__inut"
-                        type="text"
                         required
                       />
+
                       <div class="form-done__phone_wrapper">
                         <div class="form-done__flag">
                           <img src="./img/Flags.svg" alt="" />
                           <p class="form-done__flag_p">+380</p>
                         </div>
                         <input
+                          type="tel"
+                          name="phone"
                           id="phone"
                           class="form-done__inut_tell"
-                          type="text"
                           required
                         />
                       </div>
@@ -220,11 +230,10 @@
                           </label>
                         </div>
                       </div>
-                      <a class="main-content__link" href="./thanck.html">
-                        <button class="form-done_submit" type="submit">
-                          Начать зарабатывать!
-                        </button>
-                      </a>
+
+                      <button class="form-done_submit" type="submit">
+                        Начать зарабатывать!
+                      </button>
                     </form>
 
                     <script>
