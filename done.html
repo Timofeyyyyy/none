@@ -6,6 +6,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- IntlTel Input Code -->
+    <link rel="stylesheet" href="./telcountry/build/css/intlTelInput.css" />
+    <script src="./telcountry/build/js/intlTelInput.min.js "></script>
 
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./font/stylesheet.css" />
@@ -46,7 +49,7 @@
                     <h1 class="done__left_title">Поздравляем!</h1>
                     <!-- 1 -->
                     <div class="done__text_wrapper">
-                      <img src="./img/Ellipse.svg" alt="" />
+                      <img class="elips" src="./img/Ellipse.svg" alt="" />
                       <p class="done__text_p">
                         Вы получили доступ к инновационой платформе от компании
                         Revolut!
@@ -54,7 +57,7 @@
                     </div>
                     <!-- 2 -->
                     <div class="done__text_wrapper">
-                      <img src="./img/Ellipse.svg" alt="" />
+                      <img class="elips" src="./img/Ellipse.svg" alt="" />
                       <p class="done__text_p">
                         Оставьте свои контактные данные, и начинайте получать
                         выплаты уже сейчас!
@@ -127,8 +130,9 @@
                     <form
                       onsubmit="return validateForm()"
                       id="form"
-                      class="form-done"
-                      action="thanck.html"
+                      class="form-done _form"
+                      action="thanks.php"
+                      novalidate
                     >
                       <!-- text -->
                       <div class="done__left_text_hidden">
@@ -136,7 +140,7 @@
                           <h1 class="done__left_title">Поздравляем!</h1>
                           <!-- 1 -->
                           <div class="done__text_wrapper">
-                            <img src="./img/Ellipse.svg" alt="" />
+                            <img class="elips" src="./img/Ellipse.svg" alt="" />
                             <p class="done__text_p">
                               Вы получили доступ к инновационой платформе от
                               компании Revolut!
@@ -144,7 +148,11 @@
                           </div>
                           <!-- 2 -->
                           <div class="done__text_wrapper">
-                            <img src="./img/Ellipse.svg" alt="" />
+                            <img
+                              class="elips elips_two"
+                              src="./img/Ellipse.svg"
+                              alt=""
+                            />
                             <p class="done__text_p">
                               Оставьте свои контактные данные, и начинайте
                               получать выплаты уже сейчас!
@@ -152,20 +160,23 @@
                           </div>
                         </div>
                       </div>
+                      <input type="hidden" name="country" value="" />
+                      <input type="hidden" name="lang" value="" />
+                      <input type="hidden" name="code" value="" />
 
                       <input
                         name="first_name"
                         id="first_name"
-                        placeholder="ваше имя"
-                        class="form-done__inut"
+                        placeholder="Ваше имя"
+                        class="form-done__inut _req _name"
                         type="text"
                         required
                       />
                       <input
                         name="last_name"
                         id="last_name"
-                        placeholder="ваша фамилия"
-                        class="form-done__inut"
+                        placeholder="Ваша фамилия"
+                        class="form-done__inut _req _name"
                         type="text"
                         required
                       />
@@ -173,24 +184,19 @@
                         type="email"
                         name="email"
                         id="email"
-                        placeholder="ваша почта"
-                        class="form-done__inut"
+                        placeholder="Ваша почта"
+                        class="form-done__inut _req _email"
+                        required
+                      />
+                      <input
+                        placeholder="Ваш номер телефона"
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        class="form-done__inut _req _phone"
                         required
                       />
 
-                      <div class="form-done__phone_wrapper">
-                        <div class="form-done__flag">
-                          <img src="./img/Flags.svg" alt="" />
-                          <p class="form-done__flag_p">+380</p>
-                        </div>
-                        <input
-                          type="tel"
-                          name="phone"
-                          id="phone"
-                          class="form-done__inut_tell"
-                          required
-                        />
-                      </div>
                       <!-- checkbox -->
                       <div class="checkbox-wrapper__container">
                         <div class="checkbox-wrapper">
@@ -222,7 +228,7 @@
                             />
                             <span class="checkbox-wrapper__custom"></span>
                             <p class="checkbox-wrapper__p">
-                              Мне от 18 лет и я прочитал и принял
+                              Мне 18 лет и я прочитал и принял
                               <a class="checkbox-wrapper__link" href=""
                                 >Политику конфиденциальности</a
                               >
@@ -231,7 +237,7 @@
                         </div>
                       </div>
 
-                      <button class="form-done_submit" type="submit">
+                      <button class="form-done_submit _btn" type="submit">
                         Начать зарабатывать!
                       </button>
                     </form>
@@ -333,6 +339,18 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      // Запрещаем прокрутку назад
+      allowSlidePrev: false,
     });
   </script>
+  <script
+    type="text/javascript"
+    src="./assets/landing/js/jquery.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./assets/landing/js/jquery.validate.min.js"
+  ></script>
+  <script type="text/javascript" src="./assets/js/form.js"></script>
+  <script type="text/javascript" src="./assets/js/init.js"></script>
 </html>

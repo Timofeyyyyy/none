@@ -69,6 +69,9 @@
   .done__block_content .done__left {
     width: 400px;
   }
+  .done__left_content {
+    gap: 70px;
+  }
 }
 @media (max-width: 1000px) {
   .container {
@@ -411,6 +414,14 @@
   .questions__content {
     display: block;
     justify-content: center;
+  }
+  .checkbox-wrapper__custom {
+    position: relative;
+    width: 40px;
+    height: 16px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, #316cf0 0%, #663eff 100%, #663eff 100%);
+    transition: 0.2s all;
   }
 }
 @media (max-width: 450px) {

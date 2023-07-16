@@ -21,7 +21,7 @@ inputs.forEach(function (input) {
 
           isScrollAllowed = true;
           isTransitionAllowed = true;
-        }, 500);
+        }, 100);
       }
     }
   });
